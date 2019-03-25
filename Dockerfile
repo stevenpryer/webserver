@@ -5,4 +5,4 @@
    RUN echo 'Hi, I am in your container' \
        >/var/www/html/index.html
    EXPOSE 80
-   CMD [ "/bin/bash" ]
+   ENTRYPOINT ["/usr/sbin/nginx", "-g", "daemon off;"]
