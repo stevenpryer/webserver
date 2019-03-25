@@ -1,0 +1,6 @@
+# Ignore GitHub metadata files
+README.md
+**/.git
+
+# Ignore macOS directory metadata files
+**/.DS_Store
