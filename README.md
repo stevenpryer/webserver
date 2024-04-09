@@ -1,2 +1,2 @@
-# static_web
-This is a test GitHub repository.
+# webserver
+This is a development of a web server, using Docker.
