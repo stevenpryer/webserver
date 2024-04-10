@@ -1,4 +1,4 @@
-# Version: 0.2
-FROM httpd:2.4
+# Version: 0.3
+FROM php:8.1-apache
 LABEL maintainer="Steven Pryer <steven@pryersolutions.com>"
-COPY ./public-html/ /usr/local/apache2/htdocs/
+COPY ./html/ /var/www/html/
