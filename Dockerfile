@@ -7,3 +7,6 @@ COPY ./my-httpd-vhosts.conf /usr/local/apache2/conf/extra/httpd-vhosts.conf
 COPY ./server.crt /usr/local/apache2/conf/
 COPY ./server.key /usr/local/apache2/conf/
 
+EXPOSE 80/tcp
+EXPOSE 443/tcp
+
